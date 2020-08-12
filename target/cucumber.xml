@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="8.913">
+    <testcase classname="APIChecks" name="Get all the books from the bookstore" time="1.69">
+        <system-out>
+            <![CDATA[Given Bookstore API.........................................................passed
+When Retrieve all books.....................................................passed
+Then I validate the book with id 1 as Harry Potter and the Sorcerer Stone...passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Logo presence on home page" time="7.052">
+        <system-out>
+            <![CDATA[Given I launch chrome browser...............................................passed
+When I open home page.......................................................passed
+Then I validate the logo present on home page...............................passed
+And close browser...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
