@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@regression
+@regression @BookstoreAPI
 Feature: APIChecks
   Access the Bookstore
 
